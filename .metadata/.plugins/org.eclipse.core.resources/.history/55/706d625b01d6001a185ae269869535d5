@@ -1,0 +1,22 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		/*
+		 * 정수 5개를 저장하는 배열을 생성하고
+		 * 10, 20, 30, 40, 50 으로 초기화 한 후 출력
+		 * 정수형 변수 total에 배열 내의 정수의 합을 누적한 뒤 결과 값 출력
+		 * 
+		 */
+		
+		int[]nums = {10, 20, 30, 40, 50};
+		System.out.println("배열 nums의 0번 인덱스: " + nums[0]);
+		System.out.println("배열 nums의 1번 인덱스: " + nums[1]);
+		System.out.println("배열 nums의 2번 인덱스: " + nums[2]);
+		System.out.println("배열 nums의 3번 인덱스: " + nums[3]);
+		System.out.println("배열 nums의 4번 인덱스: " + nums[4]);
+		int total = ;
+
+	}
+
+}
