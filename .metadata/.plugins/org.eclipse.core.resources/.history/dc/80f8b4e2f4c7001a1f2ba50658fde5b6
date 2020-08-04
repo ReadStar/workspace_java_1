@@ -1,0 +1,42 @@
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		
+		
+		/*
+		 * 산술 연산자 ( +, -, *, /, %)
+		 * -기본 사칙현산(+, -, *, /)과 나머지 연산자로 구성
+		 * -나눗셈 연산자(/)는 나눗셈 결과 중 몫만 계산
+		 * -나머지 연산자(%)는 나눗셈 결과 중 나머지만 계산
+		 * -덧셈 연산자의 경우 일반적인 덧셈 기능 외에
+		 * 	문자열에 사용 시 문자열 결합
+		 */
+		
+		int a = 10, b = 3, c;
+		
+		c = a+b;
+		System.out.println(a + "+" + b +"="+c);
+		
+		c = a-b;
+		System.out.println(a + "-" + b +"="+c);
+		
+		c = a*b;
+		System.out.println(a + "*" + b +"="+c);
+		
+		c = a/b;
+		System.out.println(a + "/" + b +"="+c);
+		
+		c = a%b;
+		System.out.println(a + "%" + b +"="+c);
+		
+		System.out.println("<---------------------->");
+		
+		//덧셈 연산자(+)의 다른 사용법 = 문자열 결합
+		String s1 = "Java";
+		String s2 = "Programming";
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class test1 {
+
+	public static void main(String[] args) {
+		//1 ~ 100 까지 1씩 증가하면서 합계를 sum에 누적 후 출력
+		int sum = 0;
+		for(int i = 1; i<=100; i++) {
+			sum += i;
+		}
+		System.out.println("누적합계" + sum);
+		
+		System.out.println("-----------------------------");
+		
+		//1 ~ 10까지 1씩 증가하면서 홀수의 합을 oddTotal에 누적하고
+		//짝수의 합을 evenTotal에 누적
+		
+	}
+
+}

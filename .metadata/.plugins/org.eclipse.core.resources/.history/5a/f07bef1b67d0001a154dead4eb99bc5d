@@ -1,0 +1,15 @@
+
+public class Ex {
+
+	public static void main(String[] args) {
+		/*
+		 * for문과 if문의 조합
+		 * -for문 내에서 if문을 사용하여 반복 과정에서
+		 *  특정 조건을 만족하면 지정된 문장을 실행하거나 실행하지 않음
+		 */
+		
+		
+		
+	}
+
+}

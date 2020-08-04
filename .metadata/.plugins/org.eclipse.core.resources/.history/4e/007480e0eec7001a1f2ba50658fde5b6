@@ -1,0 +1,13 @@
+
+public class Ex {
+
+	public static void main(String[] args) {
+		int i1 = 1234;
+		long l1 - i1; //int -> long 자동형변환
+		System.out.println(i1+","+l1);
+		
+		
+		
+	}
+
+}

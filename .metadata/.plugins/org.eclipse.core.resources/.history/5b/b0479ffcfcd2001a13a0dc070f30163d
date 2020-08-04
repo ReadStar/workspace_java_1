@@ -1,0 +1,14 @@
+
+public class Ex5 {
+	public static void main(String[] args) {
+		
+		for (int i = 1; i <= 9; i++) {
+			System.out.println("<"+i+"단>");
+			for(int o = 2; o<=9; o++) {
+				System.out.println(i+"x"+o+"="+(i*o));
+			}
+				
+			
+		}
+	}
+}

@@ -1,0 +1,16 @@
+
+public class test4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 1부터 1씩 증가하는 값을 차례대로 누적하여
+		 * 누적합계가 1000보다 클 때 i 값을 출력
+		 */
+		int i=1;
+		int sum = 0;
+		while (true) {
+			
+		}
+	}
+
+}

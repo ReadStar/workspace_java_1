@@ -1,0 +1,24 @@
+
+public class Ex {
+
+	public static void main(String[] args) {
+		int i1 = 1234;
+		long l1 = i1; //int -> long 자동형변환
+		System.out.println(i1+","+l1);
+		
+//		byte b1 = i1i1; // int -> byre 자동현변환 불가
+		byte b1 = (byte) i1; //Byte으로 명시적(강제) 형변환 필수
+		//=>변환 과정에서 overflow가 발생하므로 다른 값 제출
+		System.out.println(i1+","+b1);
+		
+		double d1 = i1; //int -> double로 자동형변환
+		System.out.println(i1+","+d1);
+		
+		double d2 = 0.12345678901234567890;
+		float f1 = d2;//double -> float로 자동현변환 불가
+		flaot f1 = (float) d2; //float 타입으로 명시적(강제) 형변환 필수
+		System.out.println(d2 + ","+f1);
+		
+	}
+
+}

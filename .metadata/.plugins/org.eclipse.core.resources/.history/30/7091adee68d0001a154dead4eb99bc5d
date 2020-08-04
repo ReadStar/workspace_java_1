@@ -1,0 +1,11 @@
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 반복을 사용한 합계(연산의 누적) 계산
+		 */
+
+	}
+
+}

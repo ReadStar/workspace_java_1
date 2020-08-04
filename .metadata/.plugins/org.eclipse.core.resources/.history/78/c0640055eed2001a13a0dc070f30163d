@@ -1,0 +1,15 @@
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 중첩 While문
+		 * - 중첩 for문과 마찬가지로  while 내에 while문을 기술하는 것
+		 * - 바깥쪽 while 문이 1번 반복할 동안 while문이 여러번 반복
+		 */
+		int i = 1; //초기식 1
+		
+
+	}
+
+}
