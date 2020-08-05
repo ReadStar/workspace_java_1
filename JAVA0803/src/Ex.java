@@ -145,5 +145,7 @@ public class Ex {
 			for (int j = 0; j < nums.length; j++) {
 				System.out.printf("배열 nums의 %d번 인덱스 : %d\n",j,nums[j]);
 			}
+			
+			
 	}
 }
