@@ -103,7 +103,7 @@ public class Ex {
 		System.out.println("배열 nums의 4번 인덱스: " + nums[4]);
 		
 		//학생 3명의 이름을 배열로 갖는 names 배열 생성
-		//=>홍긷롱, 이순신, 강감찬으로 초기화
+		//=>홍길동, 이순신, 강감찬으로 초기화
 		String[]names = {"홍길동", "이순신", "강감찬"};
 		System.out.println(names[0]);
 		System.out.println(names[1]);
@@ -147,5 +147,6 @@ public class Ex {
 			}
 			
 			
+		
 	}
 }
