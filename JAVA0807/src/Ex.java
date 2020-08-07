@@ -1,5 +1,4 @@
- 
-public class Ex {
+ public class Ex {
  
 	public static void main(String[] args) {
 		// 배열 기초 복습
