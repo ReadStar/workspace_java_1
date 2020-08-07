@@ -146,7 +146,6 @@ public class Ex {
 				System.out.printf("배열 nums의 %d번 인덱스 : %d\n",j,nums[j]);
 			}
 			
-			
 		
 	}
 }
