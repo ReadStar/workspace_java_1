@@ -16,3 +16,4 @@
 2020-08-04 08:42:30,817 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-08-04 09:41:29,564 [Framework stop - Equinox Container: 86b4a876-890d-4f1b-a8b4-879e14435680] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[D:\workspace_java_1\6Month-Java\.git]
 2020-08-04 09:42:13,359 [Worker-17: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-07 14:50:37,582 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
