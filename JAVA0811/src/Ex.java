@@ -78,7 +78,27 @@ public class Ex {
 		String snack = sister_4(500); // 메서드 호출 시 정수 200 전달
 		// => 메서드 작업 종료 후 문자열이 리턴되므로 변수 snack 에 저장
 		System.out.println("동생이 사다준 것 : " + snack);
+		System.out.println("--------------------------------------------");
+	//5. 매개변수가 2개 이상인 메서드
+		//=>3번 또는 4번 유형 메서드에서 전달할 데이터가 2개 이상인 경우
+		//각 데이터를 콤마로 구분하여 전달
+		System.out.println("1000원 줄테니 새우깡 바꿔와");
+		snack = sister_5("새우깡", 1000);
+		System.out.println(" 동생이 바꿔다 준 것 " + snack);
+		
 	} // main() 메서드 끝
+	//5. 매개변수가 2개 이상인 메서드
+	//=>매개변수가 여러개일 때 해당 갯수와 타입 반큼 변수 선언 필요
+	//		주의 사항 전달된 데이터의 순서대로 선언해야함
+	public static String sister_5(String snack, int money) {
+		System.out.println("받은 과자 " + snack);
+		System.out.println("받은 돈" + money);
+		money -= 1000;
+		snack = "쿠쿠다스";
+		return snack;
+	}
+	
+	
 	// 1. 매개변수도 없고, 리턴값도 없는 메서드 정의
 	// => 리턴값이 없으므로, 리턴타입 부분에 특수 자료형인 void 를 명시
 	// => 매개변수가 없으므로 메서드 선언부 소괄호() 안을 비워둠

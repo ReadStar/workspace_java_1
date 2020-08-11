@@ -28,7 +28,69 @@ public class test {
 //					ex) n = 10 55
 //							n = 100 5050
 			sum(100);
+			
+			System.out.println("-------------------------------------_");
+			//4. 매개변수도 있고, 리턴값도 있는 메서드
+			// 1) 정수(n)을 전달하면, 1 ~ n까지의 합계를 리턴하는 sum2()메서드 호출
+			int n = 100;
+			int total = sum2(n);
+			System.out.println("1~ " + n + "까지의 합 : " + total); 
+	
+	
+			//2) 정수 (n)을 전달하면, 홀수 또는 짝수 를 판별하여
+			// "홀수" 또는 "짝수" 문자열을 리턴하는 num() 메서드 정의
+			n = 11;
+			String result = num(n);
+			System.out.println(n + ":" + result);
+			System.out.println("--------------------------------------------");
+			
+			//5. 매개변수가 2개 이상인 메서드
+			//1) 정수 2개를 전달받아 두 정수 합 출력하는 add() 메서드
+				
+			add(10, 20);
+ }		
+		public static void add(int n1, int n2) {
+			System.out.println(n1 + n2);
+		}
+	
+	
+	
+	//------------------------------------------
+	//4-2) 정수 (n)을 전달하면, 홀수 또는 짝수 를 판별하여
+	// "홀수" 또는 "짝수" 문자열을 리턴하는 num() 메서드 정의
+	public static String num(int n) {
+		//if문 사용시 모든 조건에 따른 return문 필수
+		//만약 if문과 else if문을 조합할 경우 else문이 없으면
+		//if문 조건식ㅇ니 모두 아닐 때 return 문장이 없으므로 오류 발생
+		//해결책 1. else if 대신 else문을 사용
+		// =>if문이 false일 경우 무조건 else문에서 return문이 실행됨
+		if (n %2 == 0) {
+			return  "짝수";
+		}else {
+			return "홀수";
+		}
+		//해결책 2. if문 등의 실행 블록 내에서 직접 리턴 하지 않고
+		//리턴할 값을 변수에 저장만 한 뒤 if문이 끝난 후 return문 실행
 	}
+			
+			
+	// 4. 매개변수도 있고, 리턴값도 있는 메서드
+	//1) 정수를 전달하면, 1 ~ n 까지의 합계를 리턴하는 sum2() 메서드 정의
+	 public static int sum2(int num) {
+		 int sum = 0;
+		 
+		 for (int i = 1; i < num; i++) {
+			sum +=i;
+			
+		}
+		 return sum;
+	 }
+	
+	
+	
+	
+	
+	//------------------------------------------------------------
 	//1. 매개변수도 없고, 리턴값도 없는 메서드
 	// =>Hello, world" 문자열을 10번 반복 출력하는 hello()메서드의 정의
 //			=>리턴값이 없으므로 리턴타입에 void를 명시
@@ -76,7 +138,5 @@ public class test {
 		}
 		System.out.println(sum);
 	}
-	
-	
 	
 		}
