@@ -22,7 +22,7 @@ public class Ex3 {
 //		}
 //	향상된 for문 사용 
 	for(int num : arr) {
-		//배열 arr내의 데이터를 차례대로 꺼내서 num에 저장 반
+		//배열 arr내의 데이터를 차례대로 꺼내서 num에 저장 반복 
 		System.out.println(num);
 	}
 	}
