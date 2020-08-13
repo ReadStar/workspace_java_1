@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="sun.text.resources.cldr.FormatData"/>
+<fullyQualifiedTypeName name="person"/>
 </qualifiedTypeNameHistroy>
