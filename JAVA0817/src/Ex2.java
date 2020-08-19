@@ -11,6 +11,9 @@ public class Ex2 {
 		 *   매개변수만 달리 하여 여러번 정의하는 것
 		 *   => 전달되는 데이터 타입에 따라 해당 메서드를 자동으로 호출함
 		 *   -매개변수 이름만 다르거나, 리턴타입만 다른 것은 오버로딩이 아님
+		 * -system.out.println() 메서드(print(), printf()메서드 포함)가
+		 * 	 오버로딩이 적용된 메서드의 대표적인 예
+		 * 
 		 *   
 		 */
 		NormalMethod nm = new NormalMethod();
