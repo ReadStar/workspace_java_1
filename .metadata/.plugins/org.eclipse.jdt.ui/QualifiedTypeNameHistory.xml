@@ -13,4 +13,11 @@
 <fullyQualifiedTypeName name="com.samsung.tv.Tv"/>
 <fullyQualifiedTypeName name="com.lg.smartphone.LgPhone"/>
 <fullyQualifiedTypeName name="com.lg.tv.Tv"/>
+<fullyQualifiedTypeName name="Parent"/>
+<fullyQualifiedTypeName name="packOne.parent2"/>
+<fullyQualifiedTypeName name="SpiderMan"/>
+<fullyQualifiedTypeName name="ElectricCar"/>
+<fullyQualifiedTypeName name="KakaoBank"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
 </qualifiedTypeNameHistroy>
