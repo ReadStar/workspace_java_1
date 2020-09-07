@@ -20,4 +20,10 @@
 <fullyQualifiedTypeName name="KakaoBank"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="Employee"/>
+<fullyQualifiedTypeName name="Manager"/>
+<fullyQualifiedTypeName name="Engineer"/>
+<fullyQualifiedTypeName name="Person2"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="FinalVariable"/>
 </qualifiedTypeNameHistroy>
