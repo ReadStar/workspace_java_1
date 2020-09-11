@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="person"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="OverloadingMethod"/>
-<fullyQualifiedTypeName name="Rectangle"/>
 <fullyQualifiedTypeName name="VariableArguments"/>
 <fullyQualifiedTypeName name="ParameterPerson"/>
 <fullyQualifiedTypeName name="Person4"/>
@@ -26,4 +25,6 @@
 <fullyQualifiedTypeName name="Person2"/>
 <fullyQualifiedTypeName name="Student"/>
 <fullyQualifiedTypeName name="FinalVariable"/>
+<fullyQualifiedTypeName name="Rectangle"/>
+<fullyQualifiedTypeName name="Triangle"/>
 </qualifiedTypeNameHistroy>
