@@ -23,8 +23,14 @@
 <fullyQualifiedTypeName name="Manager"/>
 <fullyQualifiedTypeName name="Engineer"/>
 <fullyQualifiedTypeName name="Person2"/>
-<fullyQualifiedTypeName name="Student"/>
 <fullyQualifiedTypeName name="FinalVariable"/>
 <fullyQualifiedTypeName name="Rectangle"/>
 <fullyQualifiedTypeName name="Triangle"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.INSTANCEOF"/>
+<fullyQualifiedTypeName name="Shape"/>
+<fullyQualifiedTypeName name="java.awt.Rectangle"/>
+<fullyQualifiedTypeName name="StaticEx"/>
+<fullyQualifiedTypeName name="SingletonClass"/>
+<fullyQualifiedTypeName name="SingletonTest"/>
 </qualifiedTypeNameHistroy>

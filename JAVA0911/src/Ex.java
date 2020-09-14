@@ -1,5 +1,3 @@
-import java.awt.Rectangle;
-
 public class Ex {
 
 	public static void main(String[] args) {
@@ -34,7 +32,7 @@ public class Ex {
 		//참조변수로 데이터 타입으로 사용은 가능
 		Shape s = new Circle();
 		s.draw();
-//		s = new Rectangle();
+		s = new Rectangle();
 		s.draw();
 	}
 
@@ -57,6 +55,7 @@ class Circle extends Shape{
 		System.out.println("원 그리기");
 		
 	}
+}
 //Shape 클래스를 상속받는 Rectangle 클래스 정의
 	class Rectangle extends Shape{
 			//추상메서드 오버라이딩에 대한 강제성으로 부여되므로
@@ -69,7 +68,7 @@ class Circle extends Shape{
 		}
 		
 	}
-}
+
 
 
 //강제성을 부여하지 않고 클래스를 정의하게 될 경우 발생하는 문제점
