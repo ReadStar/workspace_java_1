@@ -1,14 +1,5 @@
 package interfaces;
-/*
- * 인터페이스(Interface)
- * -어떤 객체와 개발자 사이의 접점(중개) 역활
- * -인터페이스 정의 시 class 키워드 대신 nterface 키워드를 사용
- * -인터페이스는 상수와 추상메서드만 가질 수 있음
- * 		1)상수 : public static final 을 사용하여 선언하며 생략도 가능
- * 		2)추상메서드 : public abstract 를 사용하여 정의하며 생략도 가능
- * -추상클래스와 마찬가지로 객체 생성이 불가능하며, 상속 전용으로 사용
- * 	 단, 데이터 타입으로는 사용 가능하므로, 다형성 활용 가능
- */
+
 public interface RemoteControl {
 	//인터페이스 내의 모든 변수는 상수(public static final)fh cnlrmqehla
 	public static final int MAX_VOLUME = 100;
